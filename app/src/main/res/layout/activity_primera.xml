@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    tools:context="com.salesianos.jmpeagarcia.layout.Primera"
+    android:orientation="vertical"
+    android:background="@android:color/holo_orange_light">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:background="#88ff0e"
+        android:id="@+id/capa1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Boton"
+            android:id="@+id/boton"
+            android:background="@android:color/holo_red_light"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/android1"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/boton"
+            android:layout_alignRight="@+id/boton"
+            android:layout_alignEnd="@+id/boton"
+            android:layout_marginRight="60dp"
+            android:layout_marginEnd="60dp"
+            android:src="@drawable/ic_launcher" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="35"
+        android:orientation="horizontal"
+        android:layout_gravity="top|center"
+        android:gravity="center|top"
+        android:background="#ffb8eb"
+        android:id="@+id/capa2">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/android2"
+            android:gravity="center|top"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/android3"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/android4"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/android5"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/android6"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+</LinearLayout>
