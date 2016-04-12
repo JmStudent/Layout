@@ -1,20 +1,20 @@
-RESULTADO FINAL DE LA APP
+Layout
 =========================
-![alt text](https://i.gyazo.com/6e83f209ecbc3a1f9399e0338a4df6e7.png "Resultado APP Layout")
+![alt text](https://i.gyazo.com/6e83f209ecbc3a1f9399e0338a4df6e7.png "Result APP Layout")
 
 
-~~~completar más datos~~~
+~~completar más datos~~
 
 
-ENUNCIADO
+REQUIREMENTS
 -------------------------
-Crea un nuevo proyecto.
+Create a new project.
 
-- Versión de nuestra app: 2 (Nombre clave ‘Zulu’)
-- Nombre de la aplicación: layout
-- Icono: Cualquiera distinto del predefinido.
+- Version: 2 (codename ‘Zulu’)
+- App Name: layout
+- Icon: anyone except the default icon.
 
-Tendrá una sola actividad con título “Primera” que tendrá las siguientes características:
+You will make only an activity called "Primera" and it'll must be:
 
 - Tiene como raíz un LinearLayout vertical (naranja), que tienen en su interior un Relative Layout (verde) y un linearLayout horizontal (rosa).
 - Relative Layout: ocupa todo el ancho y un 50% del alto.
@@ -23,7 +23,7 @@ Tendrá una sola actividad con título “Primera” que tendrá las siguientes 
 - Por su parte, el LinearLayout horizontal ocupa el 35% del espacio vertical y contiene 5 iconos como el mencionado, centrados tanto verticalmente como horizontalmente respecto al LinearLayout, excepto el central que se encuentra alineado arriba.
 
 
-IMAGENES ILUSTRATIVAS
+GOAL
 ---------------------------------
-![alt text](http://i.imgur.com/XVotjwH.png "Imagen Layout 1")
-![alt text](http://i.imgur.com/oq9L277.png "Imagen Layout 2")
+![alt text](http://i.imgur.com/XVotjwH.png "Image Layout 1")
+![alt text](http://i.imgur.com/oq9L277.png "Image Layout 2")
