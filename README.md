@@ -1,6 +1,6 @@
 RESULTADO FINAL DE LA APP
 =========================
-![alt text](https://i.gyazo.com/75650706b07f48d8a2cfcbe0f41272c6.png "Resultado APP Layout")
+![alt text](https://i.gyazo.com/6e83f209ecbc3a1f9399e0338a4df6e7.png "Resultado APP Layout")
 
 
 ~~~completar más datos~~~
